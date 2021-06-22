@@ -29,13 +29,15 @@ def premiodocenteDPMC():
   #datos de salida
   print("El docente obtendra un sueldo total de:", premioObtenidoDPMC)
 
-def vacunaCorrespondienteDPMC()
+def menuDPMC():
   #definir variables
-  
+  print("Elija la opcion:")
+  n1=premiodocenteDPMC():
+  n2=notafinaldeprogramacionDPMC():
+ 
+  edadt=int(input ('Ingresa el valor de edad: '))
 
-  #datos de entrada
-  #Proceso
-  #datos de salida
+
 
 
 
@@ -43,3 +45,4 @@ def vacunaCorrespondienteDPMC()
 
 #notafinaldeprogramacionDPMC()
 #premiodocenteDPMC()
+vacunaCorrespondienteDPMC()
