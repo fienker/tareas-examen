@@ -26,17 +26,17 @@ def sueldosemanal(): #ejercico 3.2
   #proceso
   if cantidadX<=40 and cantidadX>=0:
     print("no execede")
-<<<<<<< HEAD
+
     montoP=(cantidadX*montoP)
   elif cantidadX>=40 and cantidadX<=60:
     print("si execede")
     montoP=(cantidadX*montoP)*2
-=======
+
     montoP=cantidadX
   elif cantidadX>=40 and cantidadX<=60:
     print("si execede")
     montoP=cantidadX*2
->>>>>>> 9a69d96eaed085cba38bbecc2e4f21001ff00ba8
+
   #datos de salida
   print("el empleado recivira un pago de:", montoP )
 
