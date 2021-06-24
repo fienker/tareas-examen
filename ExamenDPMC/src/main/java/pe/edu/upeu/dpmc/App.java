@@ -1,4 +1,6 @@
 package pe.edu.upeu.dpmc;
+import pe.edu.upeu.dpmc.examen.ResolucionExamen;
+//import pe.edu.upeu.dpmc.utils.LeerTeclado;
 
 /**
  * Hello world!
@@ -6,8 +8,12 @@ package pe.edu.upeu.dpmc;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ){
         System.out.println( "Hello World!" );
+        ResolucionExamen var = new ResolucionExamen();
+        //obsjn.Impuesto();
+        //obsjn.TablaMultiplicar();
+        //obsjn.NUmerosPerfectos();
+        obsjn.PotenciaRecursiva();
     }
 }
