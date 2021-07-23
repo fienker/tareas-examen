@@ -1,4 +1,4 @@
-package main.java.pe.edu.upeu.dpmc.utils;
+package pe.edu.upeu.dpmc.utils;
 import java.io.*;
 
 /**

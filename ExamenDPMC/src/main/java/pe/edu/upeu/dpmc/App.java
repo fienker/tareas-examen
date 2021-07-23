@@ -10,10 +10,10 @@ public class App
 {
     public static void main( String[] args ){
         System.out.println( "Hello World!" );
-        ResolucionExamen var = new ResolucionExamen();
-        //obsjn.Impuesto();
+        ResolucionExamen obsjn = new ResolucionExamen();
+        obsjn.Impuesto();
         //obsjn.TablaMultiplicar();
         //obsjn.NUmerosPerfectos();
-        obsjn.PotenciaRecursiva();
+        //obsjn.PotenciaRecursiva();
     }
 }

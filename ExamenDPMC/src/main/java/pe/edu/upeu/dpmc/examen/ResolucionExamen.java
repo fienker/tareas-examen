@@ -1,4 +1,4 @@
- package main.java.pe.edu.upeu.dpmc.examen;
+ package pe.edu.upeu.dpmc.examen;
  import pe.edu.upeu.dpmc.utils.LeerTeclado;
  
  /**
@@ -49,9 +49,9 @@
 
 
      public void TablaMultiplicar() {
-        int Multiplicando ;
+        double Multiplicando ;
             System.out.println("¿Que tabla desea Realizar?");
-            Scanner valor1 = new Scanner(System.in);
+            double valor1 = new double (System.in);
             Multiplicando = valor1.nextInt();
             int multiplicador = 1;
             do {   System.out.println (Multiplicando + " X " + multiplicador + " = " + Multiplicando * multiplicador );
@@ -61,7 +61,6 @@
 
     public void NUmerosPerfectos(){
 
-        Scanner lector = new Scanner(System.in); //Utilidad de interacció
 
         System.out.println("Empezando listado:"); //Utilidad para escribir en pantalla
         int m = 1;
